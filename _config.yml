@@ -1,0 +1,26 @@
+baseurl: /did-notes
+title: Modern Difference-in-Differences Estimators
+subtitle: Comprehensive Notes on DiD Methods and Causal Inference.
+simple_search: http://google.com/search
+description: Comprehensive Notes on Modern Difference-in-Differences Estimators.
+name: did-notes
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: America/Los_Angeles
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: gvim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+
+theme: jekyll-theme-cayman
