@@ -3,3 +3,5 @@ _site
 .DS\_Store
 .jekyll-cache/
 config.codekit
+Gemfile.lock
+Gemfile
