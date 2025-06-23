@@ -9,3 +9,4 @@ title: Contents
 ## Preliminaries
 
 1. [Introduction to Causal Inference](introduction/causal-inference): Preliminary background for causal inference methods
+2. [Introduction to Difference-in-Differences](introduction/difference-in-differences): Background for modern DiD methods
